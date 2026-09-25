@@ -15,12 +15,6 @@ into three layers: Bronze, Silver, and Gold.
 
 ![Data Warehouse Architecture](docs/architecture_dw.jpg)
 
-## Architecture
-
-This project follows the **Medallion Architecture**, which organizes data into three layers: **Bronze, Silver, and Gold**. Each layer represents a different stage of data processing, moving from raw source data to clean, business-ready data.
-
-![Data Warehouse Architecture](docs/architecture.png)
-
 ### Bronze Layer
 
 The Bronze layer contains the **raw data** loaded from the source systems.
