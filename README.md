@@ -8,3 +8,10 @@ The data is organized into Bronze, Silver, and Gold layers to support a structur
 
 This project is being developed as a learning exercise to gain practical experience with data warehousing, ETL, dimensional modeling, and analytics concepts.
 
+## Architecture
+
+This project follows the **Medallion Architecture**, which organizes data
+into three layers: Bronze, Silver, and Gold.
+
+![Data Warehouse Architecture](docs/architecture_dw.png)
+
