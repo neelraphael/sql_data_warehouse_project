@@ -41,4 +41,44 @@ The overall data flow can be summarized as:
 
 This layered approach separates raw data from transformed and business-ready data, making the data pipeline easier to understand, maintain, and extend.
 
+---
+## Project Overview
+
+This project covers the development of a modern data warehouse and analytics solution using SQL Server.
+
+The main components of the project include:
+
+1. **Data Architecture**: Designing a data warehouse using the Medallion Architecture with Bronze, Silver, and Gold layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the data warehouse.
+3. **Data Modeling**: Designing fact and dimension tables to support analytical queries and reporting.
+4. **Analytics and Reporting**: Developing SQL-based analyses to generate meaningful business insights.
+
+---
+## Project Requirements
+
+### 1. Building the Data Warehouse
+
+#### Objective
+
+The objective is to build a modern data warehouse using SQL Server that consolidates sales-related data from multiple source systems and prepares it for analytical reporting.
+
+#### Requirements
+
+- **Data Sources**: Load data from two source systems, ERP and CRM, provided as CSV files.
+- **Data Quality**: Identify and resolve data quality issues before the data is used for analysis.
+- **Data Integration**: Combine data from both source systems into a consistent and user-friendly analytical data model.
+- **Data Scope**: The project focuses on the latest available dataset. Historical data tracking is outside the scope of this project.
+- **Documentation**: Document the data model and the overall solution to make it understandable for both technical and business users.
+
+### 2. Analytics and Reporting
+
+#### Objective
+
+The objective is to develop SQL-based analytical queries that provide insights into key business areas, including:
+
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
+
+The resulting analysis provides business metrics that can be used to understand sales performance and customer and product trends.
 
