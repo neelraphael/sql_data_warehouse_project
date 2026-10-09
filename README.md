@@ -162,7 +162,8 @@ sql_data_warehouse_project/
 * **SQL Server Management Studio (SSMS)** – Used to execute SQL scripts, create database objects, and perform data validation.
 * **T-SQL** – Used to define database objects, implement data transformations, create views, and perform data quality checks.
 * **Draw.io** – Used to create the data warehouse architecture, data integration, dataflow, and data model diagrams.
-* **Git and GitHub** – Used for version control, source code management, and project documentation.
+* **GitHub** – Used to host the project repository and maintain SQL scripts, diagrams, and project documentation.
+
 
 ## Acknowledgements
 
